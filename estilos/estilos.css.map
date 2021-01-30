@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGCA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EAED,gBAAgB;EAChB,WAAW,EAAE,0BAA0B;CAG1C;;AAGD,AAAA,EAAE,CAAC;EAEC,WAAW,EAAE,2BAA2B;CAC3C",
+    "sources": [
+        "estilos.scss",
+        "partials/_variables.scss",
+        "partials/_main.scss",
+        "partials/_baserules.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
