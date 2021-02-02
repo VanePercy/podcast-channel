@@ -1,3 +1,29 @@
+.sec-conocemas .tachado {
+  text-decoration: line-through;
+}
+
+.sec-conocemas .punto {
+  color: #0000EC;
+}
+
+.sec-conocemas h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 250px;
+  color: #060A24;
+  letter-spacing: 0;
+}
+
+.boton {
+  height: 56px;
+  width: 226px;
+  background: #00F3BB;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #060A24;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,5 +36,9 @@ body {
 
 h1 {
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+  color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
