@@ -28,35 +28,32 @@
     <title>Podcast Channel</title>
   </head>
   <body>
-    <header class="header efecto-down">
-      
-      <div class="header-logo"><img id="logo" src="./assets/logo.svg" alt="Logo" /></div>
+    <header class="header">
+      <div class="header-logo">
+        <img id="logo" src="./assets/logo.svg" alt="Logo" />
+      </div>
 
       <!--Menú hamburguesa-->
-      <nav>
-        
-          <input type="checkbox" name="checkbox" id="checkbox" />
-          <label for="checkbox"></label>
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <ul class="header-menu efecto-down-menu">
-            <li>
-              <a href="#">EPISODIOS</a>
-              <a href="#">NOSOTROS</a>
-              <a href="#">ENTREVISTAS</a>
-              <a href="#">TÓPICOS</a>
-            </li>
-          </ul>
-        
-      </nav>
+      <input class="menu-btn" type="checkbox" name="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+
+      <ul class="menu">
+        <li><a href="#">EPISODIOS</a></li>
+        <li><a href="#">NOSOTROS</a></li>
+        <li><a href="#">ENTREVISTAS</a></li>
+        <li><a href="#">TÓPICOS</a></li>
+      </ul>
     </header>
 
     <main>
       <!--Sección conoce mas-->
       <section class="sec-conocemas">
-        <h1 >Hello <span class="tachado">world</span> pale blue dot <span class="punto">.</span></h1>
+        <h1>
+          Hello <span class="tachado">world</span> pale blue dot
+          <span class="punto">.</span>
+        </h1>
         <p>
           El portal de podcasts que explora el mundo de la programación y la
           tecnología. Nuevos episodios, todos los jueves cada 15 días.
