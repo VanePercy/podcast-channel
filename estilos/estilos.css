@@ -1,28 +1,53 @@
 @charset "UTF-8";
+.sec-conocemas {
+  margin: 100px 20px;
+  width: 100%;
+}
+
 .sec-conocemas .tachado {
   text-decoration: line-through;
 }
 
 .sec-conocemas .punto {
-  color: #0000EC;
+  color: #0000ec;
 }
 
 .sec-conocemas h1 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 64px;
   font-weight: 250px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
+}
+
+.sec-conocemas p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .boton {
   height: 56px;
   width: 226px;
-  background: #00F3BB;
-  font-family: 'IBM Plex Mono', monospace;
-  color: #060A24;
+  background: #00f3bb;
+  font-family: "IBM Plex Mono", monospace;
+  color: #060a24;
   font-size: 18px;
   line-height: 24px;
+  margin-top: 3em;
+}
+
+.cont-iframes {
+  margin: 100px 20px;
+}
+
+.cont-iframes iframe {
+  width: 584px;
+  height: 232px;
+  margin-bottom: 72px;
 }
 
 * {
@@ -47,10 +72,10 @@ p {
 /*https://codepen.io/mutedblues/pen/MmPNPG*/
 .header {
   background-color: #fff;
-  -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
+  height: 80px;
+  top: 0;
   z-index: 3;
 }
 
@@ -66,6 +91,7 @@ p {
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  color: black;
 }
 
 .header li a:hover,
@@ -158,12 +184,20 @@ p {
   top: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .menu {
-    display: block;
-    background: #0000ec;
-    width: 100%;
-    padding-top: 20px;
+@media screen and (min-width: 767px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
