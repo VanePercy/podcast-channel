@@ -27,6 +27,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -41,4 +42,6 @@ h1 {
 p {
   color: black;
 }
+
+/*https://codepen.io/mutedblues/pen/MmPNPG*/
 /*# sourceMappingURL=estilos.css.map */
