@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Menú simple con tamaño menor a 1000px*/
+@media screen and (min-width: 1000px) {
+  .header .nav .menu ul {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    /*Restablece el background*/
+    background: unset;
+    /*Restablece la altura*/
+    height: unset;
+  }
+  .header .nav .menu ul li {
+    padding: 5px 10px;
+    /*Para que la nav y sus elementos se muestren en una misma línea*/
+    display: inline-block;
+  }
+  .header .nav .menu ul li:hover {
+    color: unset;
+  }
+  .header .nav .menu input {
+    /*Que no se vea el input*/
+    display: none;
+  }
+  .header .nav .menu span {
+    /*Que ya no se vean las líneas del menú hamburguesa*/
+    display: none;
+  }
+}
+/*# sourceMappingURL=mqueries.css.map */

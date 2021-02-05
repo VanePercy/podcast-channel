@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./estilos/estilos.css" />
+    <link rel="stylesheet" href="./estilos/mqueries.css">
     <!--Font Awesome-->
     <link
       rel="stylesheet"
@@ -29,23 +30,24 @@
   </head>
   <body>
     <header class="header">
+    
+        <img class="logo" src="./assets/logo.svg" alt="Logo" />
       
-      <div class="header-logo">
-        <img id="logo" src="./assets/logo.svg" alt="Logo" />
-      </div>
-
       <!--Menú hamburguesa-->
-      <input class="menu-btn" type="checkbox" name="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"
-        ><span class="navicon"></span
-      ></label>
-
-      <ul class="menu">
-        <li><a href="#">EPISODIOS</a></li>
-        <li><a href="#">NOSOTROS</a></li>
-        <li><a href="#">ENTREVISTAS</a></li>
-        <li><a href="#">TÓPICOS</a></li>
-      </ul>
+      <nav class="nav">
+        <div class="menu">
+          <input type="checkbox" id="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul>
+            <li><a href="#">EPISODIOS</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#">ENTREVISTAS</a></li>
+            <li><a href="#">TÓPICOS</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
