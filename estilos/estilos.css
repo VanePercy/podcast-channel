@@ -41,23 +41,40 @@
   margin-top: 3em;
 }
 
-.sec-episodios {
-  margin: 120px 180px;
+.sec-episodios .fondo-episodios {
+  position: relative;
+  height: 300px;
+  width: 1440px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background-image: linear-gradient(#0000FF, #0000A3);
+  -webkit-transform: skewY(-6deg);
+          transform: skewY(-6deg);
+}
+
+.sec-episodios .fondo-episodios svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
 }
 
 .sec-episodios .cont-iframes {
-  margin: 100px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  /*position: relative;
+    height: 300px;
+    background-image: linear-gradient(#0000FF, );
+    text-align: center;*/
   /*Tamaño de los iframes*/
 }
 
@@ -131,6 +148,7 @@ p {
   height: 0px;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
+  z-index: 999;
 }
 
 .header .nav .menu ul li {

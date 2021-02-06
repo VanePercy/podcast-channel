@@ -43,6 +43,9 @@
     margin: 30px 15px 15px 15px;
     text-align: center;
   }
+  .sec-conocemas .boton {
+    margin-top: 36px;
+  }
   .sec-conocemas p {
     font-size: 14px;
     letter-spacing: 0;

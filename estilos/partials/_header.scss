@@ -35,6 +35,7 @@
   background: #f2f2f2;
   height: 0px;
   transition: height 0.5s ease;
+  z-index: 999;
 }
 .header .nav .menu ul li {
   position: relative;
