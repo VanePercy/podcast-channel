@@ -42,18 +42,23 @@
 }
 
 
-.cont-iframes  {
-  
-  margin: 100px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-   
+.sec-episodios {
 
-  iframe {
-    width: 584px;
-    height: 232px;
-    margin: 1em;
-  }
+  .cont-iframes  {
+  
+    margin: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     
+  /*Tamaño de los iframes*/
+    iframe {
+      width: 584px;
+      height: 232px;
+      margin: 1em;
+    }
+
+}
+
 }
