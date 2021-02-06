@@ -53,5 +53,16 @@
     margin: 0px 16px 0px 16px;
     text-align: center;
   }
+  .sec-episodios .fondo-episodios {
+    width: 100%;
+    height: 1250.5px;
+    display: block;
+  }
+  .sec-episodios h2 {
+    font-size: 24px;
+    /*Margen superior - derecho - inferior para ubicarla bien*/
+    margin: 64px 147px 21px 16px;
+    padding-top: 50px;
+  }
 }
 /*# sourceMappingURL=mqueries.css.map */
