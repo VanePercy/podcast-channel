@@ -1,52 +1,61 @@
+@media screen and (min-width: 1000px) {
+  /*Menú simple con tamaño menor a 1000px*/
+  .header .nav .menu ul {
+    position: relative;
+    top: 0;
+    overflow: hidden;
 
-@media screen and (min-width: 1000px){
+    /*Restablece el background*/
+    background: unset;
+    /*Restablece la altura*/
+    height: unset;
+  }
 
-    /*Menú simple con tamaño menor a 1000px*/
-    .header .nav .menu ul {
-        position:relative;
-        top: 0;
-        overflow: hidden;
+  .header .nav .menu ul li {
+    padding: 5px 10px;
+    /*Para que la nav y sus elementos se muestren en una misma línea*/
+    display: inline-block;
+  }
 
-        /*Restablece el background*/
-        background: unset;
-        /*Restablece la altura*/
-        height: unset;
+  .header .nav .menu ul li:hover {
+    color: unset;
+  }
 
-    }
+  .header .nav .menu input {
+    /*Que no se vea el input*/
+    display: none;
+  }
 
-    .header .nav .menu ul li {
-        padding: 5px 10px;
-        /*Para que la nav y sus elementos se muestren en una misma línea*/
-        display: inline-block;
-
-    }
-
-    .header .nav .menu ul li:hover {
-        color:unset;
-    }
-
-    .header .nav .menu input {
-        /*Que no se vea el input*/
-        display: none;
-    }
-
-    .header .nav .menu span {
-        /*Que ya no se vean las líneas del menú hamburguesa*/
-        display: none;
-    }
-
+  .header .nav .menu span {
+    /*Que ya no se vean las líneas del menú hamburguesa*/
+    display: none;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .sec-conocemas {
+    height: 279px;
+    width: 100vw;
+    margin: 0px;
+    text-align: center;
+    margin-top: 80px;
 
-@media screen and (max-width: 768px){
-
-    .sec-conocemas {
-
-        height: 279px;
-        width: 100vw;
-        margin: 0px;
-        text-align: center;
-        margin-top: 80px;
+    h1 {
+      
+      font-size: 36px;
+      letter-spacing: 0;
+      line-height: 42px;
+      margin: 30px 15px 15px 15px;
+      text-align: center;
+      
     }
 
+    p {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin: 0px 16px 0px 16px;
+        text-align: center;
+    }
+  }
 }

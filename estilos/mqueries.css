@@ -36,5 +36,19 @@
     text-align: center;
     margin-top: 80px;
   }
+  .sec-conocemas h1 {
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 30px 15px 15px 15px;
+    text-align: center;
+  }
+  .sec-conocemas p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0px 16px 0px 16px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=mqueries.css.map */

@@ -27,7 +27,7 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 400px;
 }
 
 .boton {
@@ -39,6 +39,10 @@
   font-size: 18px;
   line-height: 24px;
   margin-top: 3em;
+}
+
+.sec-episodios {
+  margin: 120px 180px;
 }
 
 .sec-episodios .cont-iframes {
