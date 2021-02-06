@@ -124,6 +124,8 @@ p {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
+  /*Para superponer el header y que cubra a los elementos restantes*/
+  z-index: 3;
 }
 
 .header .logo {
