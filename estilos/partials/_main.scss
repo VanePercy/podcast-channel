@@ -1,5 +1,5 @@
 .sec-conocemas {
-  margin: 100px 20px;
+  margin: 120px 180px;
   width: 100%;
 
   .tachado {
@@ -13,9 +13,10 @@
   h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 64px;
-    font-weight: 250px;
+    font-weight: 400px;
     color: #060a24;
     letter-spacing: 0;
+    font-style: bold;
   }
 
   p {
@@ -25,6 +26,7 @@
     letter-spacing: 0;
     line-height: 24px;
     font-weight: 400;
+    
   }
 }
 
@@ -39,13 +41,19 @@
   margin-top: 3em;
 }
 
+
 .cont-iframes  {
+  
   margin: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
    
 
   iframe {
     width: 584px;
     height: 232px;
-    margin-bottom: 72px;
+    margin: 1em;
   }
 }
