@@ -42,43 +42,46 @@
 }
 
 .sec-episodios .fondo-episodios {
-  position: relative;
-  height: 300px;
-  width: 1440px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-  background-image: linear-gradient(#0000FF, #0000A3);
+  /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
-}
-
-.sec-episodios .fondo-episodios svg {
-  position: absolute;
-  bottom: 0;
+  height: 900px;
   width: 100%;
-  height: 10vw;
-  /* set height to pixels if you want angle to change with screen width */
+  /*Imagen degradada*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background-image: linear-gradient(#0000FF, #0000A3);
+  position: absolute;
+  /*Cambiar la posición del elemento transformado en este caso skew
+    top = 0% - left = 0%*/
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
-.sec-episodios .cont-iframes {
+.sec-episodios h2 {
+  font-size: 48px;
+  position: relative;
+  color: white;
+  /*Margen superior - derecho - inferior*/
+  margin: 186px 200px 26px;
+}
+
+.cont-iframes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: space-around;
-      -ms-flex-align: space-around;
-          align-items: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  /*position: relative;
-    height: 300px;
-    background-image: linear-gradient(#0000FF, );
-    text-align: center;*/
-  /*Tamaño de los iframes*/
+  position: relative;
 }
 
-.sec-episodios .cont-iframes iframe {
+.cont-iframes iframe {
+  /*Tamaño de los iframes*/
   width: 584px;
   height: 232px;
   margin: 1em;
@@ -127,12 +130,10 @@ p {
   height: 36px;
   width: 36px;
   margin-left: 5%;
-  float: left;
 }
 
 .header .nav {
   margin-right: 5%;
-  float: right;
 }
 
 /*Estilo del menú y otros elementos ul, li, a*/
