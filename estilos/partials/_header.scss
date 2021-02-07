@@ -20,6 +20,19 @@
   
 }
 
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: black;
+  font-size: 64px;
+}
+
+p {
+  
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  font-size: 16px;
+}
+
 .header .nav {
   margin-right: 5%;
 }
@@ -40,6 +53,9 @@
 }
 .header .nav .menu ul li {
   position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  font-size: 16px;
 }
 .header .nav .menu ul li:hover {
   background: #5a5a5a;

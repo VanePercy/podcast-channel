@@ -58,6 +58,7 @@
 }
 
 .sec-episodios h2 {
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   position: relative;
   color: white;
@@ -95,19 +96,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /*IBM Fuentes */
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-h1 {
-  font-family: 'IBM Plex Sans', sans-serif;
-}
-
-p {
-  color: black;
-}
-
 /*Estilo del header y sus dos componentes (logo y nav)*/
 .header {
   width: 100%;
@@ -134,6 +122,18 @@ p {
   margin-left: 5%;
 }
 
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: black;
+  font-size: 64px;
+}
+
+p {
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  font-size: 16px;
+}
+
 .header .nav {
   margin-right: 5%;
 }
@@ -156,6 +156,9 @@ p {
 
 .header .nav .menu ul li {
   position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  font-size: 16px;
 }
 
 .header .nav .menu ul li:hover {
