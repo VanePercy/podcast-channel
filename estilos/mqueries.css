@@ -44,7 +44,7 @@
     text-align: center;
   }
   .sec-conocemas .boton {
-    margin-top: 36px;
+    margin-top: 20px;
   }
   .sec-conocemas p {
     font-size: 14px;
@@ -63,6 +63,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .sec-episodios iframe {
+    background-color: transparent;
+    margin-bottom: 0px;
+    border: 0px;
+    height: 235px;
+    /*Que ocupe todo el ancho*/
+    width: 100%;
   }
   .sec-episodios h2 {
     font-size: 24px;
