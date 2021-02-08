@@ -88,7 +88,7 @@
 
 .cont-iframes iframe {
   /*Tamaño de los iframes*/
-  width: 584px;
+  width: 520px;
   height: 232px;
   margin: 1em;
 }
@@ -135,6 +135,18 @@
 .sec-dedondev .img-tel {
   width: 457.6px;
   height: 660px;
+}
+
+.sec-invitados h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #060A24;
+}
+
+.sec-invitados h2 .cont-imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 * {
