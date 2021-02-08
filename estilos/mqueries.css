@@ -29,12 +29,21 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    /*Anchura del 100% del viewport*/
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    height: auto;
+  }
   .sec-conocemas {
     height: 279px;
-    width: 100vw;
-    margin: 0px;
     text-align: center;
+    margin: 0px;
     margin-top: 80px;
+    width: 100vw;
   }
   .sec-conocemas h1 {
     font-size: 36px;
