@@ -83,9 +83,39 @@
   }
   .sec-episodios h2 {
     font-size: 24px;
-    /*Margen superior - derecho - inferior para ubicarla bien*/
+    /*Margen superior - derecho - inferior - izquierdo para ubicarla bien*/
     margin: 64px 147px 21px 16px;
     padding-top: 50px;
+  }
+  .sec-dedondev {
+    display: block;
+  }
+  .sec-dedondev .cont-imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  .sec-dedondev .img-tel {
+    width: 330px;
+    height: 550px;
+  }
+  .sec-dedondev p {
+    font-size: 14px;
+    text-align: left;
+    width: 288px;
+    height: 254px;
+    margin-right: 5%;
+  }
+  .sec-dedondev h2 {
+    font-size: 36px;
+    text-align: left;
+    width: 288px;
+    height: 84px;
   }
 }
 /*# sourceMappingURL=mqueries.css.map */
