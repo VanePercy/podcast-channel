@@ -124,7 +124,7 @@
 }
 
 .sec-dedondev .cont-texto {
-  margin-left: 2.5%;
+  margin-right: 2%;
 }
 
 .sec-dedondev .cont-imagen {
@@ -142,12 +142,33 @@
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #060A24;
+  font-weight: 400;
 }
 
 .sec-invitados h2 .cont-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.sec-temas h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #060A24;
+  font-weight: 400;
+}
+
+.sec-temas .cont-temas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sec-temas .cont-temas .tema {
+  width: 104px;
+  height: 104px;
 }
 
 * {

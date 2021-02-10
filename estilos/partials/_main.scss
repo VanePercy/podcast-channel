@@ -119,7 +119,8 @@
     }
 
     .cont-texto {
-      margin-left: 2.5%;
+      margin-right: 2%;
+      
     }
 
     .cont-imagen {
@@ -143,10 +144,33 @@
       font-family: "IBM Plex Sans", sans-serif;
       font-size: 48px;
       color: #060A24;
+      font-weight: 400;
 
 
       .cont-imagenes {
         display: flex;
+      }
+    }
+  }
+
+  .sec-temas {
+    h2 {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 48px;
+      color: #060A24;
+      font-weight: 400;
+
+
+    }
+
+    .cont-temas {
+      display: flex;
+      justify-content: space-around;
+
+
+      .tema {
+        width: 104px;
+        height: 104px;
       }
     }
   }
