@@ -1,6 +1,9 @@
 @media screen and (min-width: 1000px) {
 
-
+  body {
+    overflow-x: hidden;
+  }
+  
 
   /*Menú simple con tamaño menor a 1000px*/
   .header .nav .menu ul {
