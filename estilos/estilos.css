@@ -120,10 +120,11 @@
   color: #060A24;
   /*Espacio entre carácters*/
   letter-spacing: 0;
+  text-align: justify;
 }
 
 .sec-dedondev .cont-texto {
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 .sec-dedondev .cont-imagen {
