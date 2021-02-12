@@ -113,7 +113,7 @@
 
   .cont-imagen {
     position: relative;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 1%;
   }
   .img-tel {
@@ -129,17 +129,18 @@
     color: #060a24;
     font-weight: 400;
     letter-spacing: 0;
-    margin: 186px 200px 26px;
+    margin: 100px 200px 26px;
   }
 
   img {
     width: 480px;
     height: 364px;
+    margin-top: -5px;
   }
   .cont-imagenes {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 
