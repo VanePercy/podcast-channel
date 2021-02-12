@@ -52,8 +52,8 @@
   width: 1440px;
   height: 900px;
   /*Imagen degradada*/
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-  background-image: linear-gradient(#0000FF, #0000A3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+  background-image: linear-gradient(#0000ff, #0000a3);
   position: absolute;
   /*Cambiar la posición del elemento transformado en este caso skew
     top = 0% - left = 0%*/
@@ -108,7 +108,7 @@
 .sec-dedondev h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
-  color: #060A24;
+  color: #060a24;
   margin-bottom: 0.5em;
   letter-spacing: 0;
   font-weight: 400;
@@ -117,20 +117,20 @@
 .sec-dedondev p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
-  color: #060A24;
+  color: #060a24;
   /*Espacio entre carácteres*/
   letter-spacing: 0;
   text-align: justify;
 }
 
 .sec-dedondev .cont-texto {
-  margin-right: 2%;
+  width: 464px;
 }
 
 .sec-dedondev .cont-imagen {
   position: relative;
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 .sec-dedondev .img-tel {
@@ -141,20 +141,32 @@
 .sec-invitados h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
-  color: #060A24;
+  color: #060a24;
   font-weight: 400;
+  letter-spacing: 0;
+  margin: 186px 200px 26px;
 }
 
-.sec-invitados h2 .cont-imagenes {
+.sec-invitados img {
+  width: 480px;
+  height: 364px;
+}
+
+.sec-invitados .cont-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sec-temas h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
-  color: #060A24;
+  color: #060a24;
   font-weight: 400;
 }
 
