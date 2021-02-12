@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Versión Desktop*/
 @media screen and (min-width: 1000px) {
   body {
     /*Recortar el contenido horizontalmente y no mostrar barras de posición*/
@@ -32,6 +33,7 @@
   }
 }
 
+/*Versión mobile*/
 @media screen and (max-width: 768px) {
   .header {
     /*Anchura del 100% del viewport*/
