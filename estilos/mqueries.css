@@ -49,6 +49,14 @@
     padding-top: 10px;
     height: auto;
   }
+  .header .nav .menu ul li a {
+    color: #FFFFFF;
+  }
+  .boton {
+    height: 48px;
+    width: 288px;
+  }
+  /*------------------------------------Conoce mas---------------------------------------*/
   .sec-conocemas {
     height: 279px;
     text-align: center;

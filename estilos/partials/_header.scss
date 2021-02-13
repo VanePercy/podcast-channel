@@ -11,24 +11,21 @@
   align-content: center;
   /*Para superponer el header y que cubra a los elementos restantes*/
   z-index: 3;
-  
 }
 .header .logo {
   height: 36px;
   width: 36px;
   margin-left: 5%;
-  
 }
 
 h1 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: black;
   font-size: 64px;
 }
 
 p {
-  
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: black;
   font-size: 16px;
 }
@@ -46,33 +43,40 @@ p {
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: #f2f2f2;
+  background: #0000ec;
   height: 0px;
   transition: height 0.5s ease;
   z-index: 999;
 }
 .header .nav .menu ul li {
   position: relative;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: black;
   font-size: 16px;
 }
-.header .nav .menu ul li:hover {
-  background: #5a5a5a;
-}
+
 .header .nav .menu ul li a {
   position: relative;
   text-decoration: none;
-  color:#060A24;
+  color: #060a24;
   padding: 16px 5%;
   line-height: 28px;
   display: block;
+
 }
 
 /*Interacción con el cursor*/
 .header .nav .menu ul li a:hover {
-  color: #fff;
+  text-decoration: line-through;
+  color: #00f3bb;
 }
+
+.header .nav .menu ul li a:active {
+    
+  color: rgba(6, 10, 36, 0.56);
+  text-decoration: line-through;
+}
+
 /*animación del menu que se desplega input checkeado*/
 .header .nav .menu input[type="checkbox"]:checked ~ ul {
   height: 240px;
