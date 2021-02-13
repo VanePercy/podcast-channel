@@ -1,4 +1,6 @@
-.sec-nosotros {
+
+/*------------------------Nosotros-----------------------------*/
+.sec-conocemas {
   margin: 120px 180px;
   width: 100%;
 
@@ -44,6 +46,8 @@
   margin-top: 50px;
 }
 
+
+/*--------------------------------------------Episodios-------------------------------------*/
 .sec-episodios {
   .fondo-episodios {
     /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
@@ -84,7 +88,8 @@
   }
 }
 
-.sec-dedondev {
+/*--------------------------------Nosotros----------------------------------- */
+.sec-nosotros {
   display: flex;
   align-items: center;
   justify-content: center;
