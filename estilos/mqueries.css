@@ -52,10 +52,6 @@
   .header .nav .menu ul li a {
     color: #FFFFFF;
   }
-  .boton {
-    height: 48px;
-    width: 288px;
-  }
   /*------------------------------------Conoce mas---------------------------------------*/
   .sec-conocemas {
     height: 279px;
@@ -73,6 +69,8 @@
   }
   .sec-conocemas .boton {
     margin-top: 20px;
+    height: 48px;
+    width: 288px;
   }
   .sec-conocemas p {
     font-size: 14px;
