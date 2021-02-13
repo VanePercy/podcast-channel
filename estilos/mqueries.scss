@@ -1,9 +1,12 @@
 /*Versión Desktop*/
 @media screen and (min-width: 1000px) {
+
   body {
     /*Recortar el contenido horizontalmente y no mostrar barras de posición*/
     overflow-x: hidden;
   }
+
+  /*------------------------------Header-----------------------------*/
 
   /*Menú simple con tamaño menor a 1000px*/
   .header .nav .menu ul {
@@ -44,6 +47,7 @@
     overflow-x: hidden;
   }
 
+  /*------------------------------Header-------------------------------*/
   .header {
     /*Anchura del 100% del viewport*/
     width: 100vw;
@@ -52,7 +56,7 @@
     height: auto;
   }
 
-  .sec-conocemas {
+  .sec-nosotros {
     height: 279px;
     text-align: center;
     margin: 0px;
@@ -80,6 +84,8 @@
     }
   }
 
+
+  /*----------------------------------Episodios---------------------------------------*/
   .sec-episodios {
     .fondo-episodios {
       width: 100%;
@@ -105,6 +111,8 @@
     }
   }
 
+
+  /*-----------------De dónde venimos ------------------------------------------*/
   .sec-dedondev {
     display: block;
 
@@ -142,7 +150,8 @@
   }
 }
 
-.sec-invitados {
+/*---------------------------------------------entrevistas---------------------------------*/
+.sec-entrevistas {
   h2 {
     font-size: 36px;
     text-align: left;

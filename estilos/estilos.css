@@ -1,18 +1,18 @@
 @charset "UTF-8";
-.sec-conocemas {
+.sec-nosotros {
   margin: 120px 180px;
   width: 100%;
 }
 
-.sec-conocemas .tachado {
+.sec-nosotros .tachado {
   text-decoration: line-through;
 }
 
-.sec-conocemas .punto {
+.sec-nosotros .punto {
   color: #0000ec;
 }
 
-.sec-conocemas h1 {
+.sec-nosotros h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 64px;
   /*Grosor de la letra 400 = peso normal de la letra */
@@ -23,7 +23,7 @@
   z-index: -999;
 }
 
-.sec-conocemas p {
+.sec-nosotros p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   color: #060a24;
@@ -138,7 +138,7 @@
   height: 660px;
 }
 
-.sec-invitados h2 {
+.sec-entrevistas h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #060a24;
@@ -147,13 +147,13 @@
   margin: 50px 200px 26px;
 }
 
-.sec-invitados img {
+.sec-entrevistas img {
   width: 425.3px;
   height: 300px;
   margin-top: -5px;
 }
 
-.sec-invitados .cont-imagenes {
+.sec-entrevistas .cont-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,14 +165,14 @@
   width: 100%;
 }
 
-.sec-temas h2 {
+.sec-topicos h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #060a24;
   font-weight: 400;
 }
 
-.sec-temas .cont-temas {
+.sec-topicos .cont-topicos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +180,7 @@
       justify-content: space-around;
 }
 
-.sec-temas .cont-temas .tema {
+.sec-topicos .cont-topicos .tema {
   width: 104px;
   height: 104px;
 }

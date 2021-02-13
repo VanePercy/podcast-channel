@@ -5,6 +5,7 @@
     /*Recortar el contenido horizontalmente y no mostrar barras de posición*/
     overflow-x: hidden;
   }
+  /*------------------------------Header-----------------------------*/
   /*Menú simple con tamaño menor a 1000px*/
   .header .nav .menu ul {
     position: relative;
@@ -38,6 +39,7 @@
   body {
     overflow-x: hidden;
   }
+  /*------------------------------Header-------------------------------*/
   .header {
     /*Anchura del 100% del viewport*/
     width: 100vw;
@@ -47,30 +49,31 @@
     padding-top: 10px;
     height: auto;
   }
-  .sec-conocemas {
+  .sec-nosotros {
     height: 279px;
     text-align: center;
     margin: 0px;
     margin-top: 80px;
     width: 100vw;
   }
-  .sec-conocemas h1 {
+  .sec-nosotros h1 {
     font-size: 36px;
     letter-spacing: 0;
     line-height: 42px;
     margin: 30px 15px 15px 15px;
     text-align: center;
   }
-  .sec-conocemas .boton {
+  .sec-nosotros .boton {
     margin-top: 20px;
   }
-  .sec-conocemas p {
+  .sec-nosotros p {
     font-size: 14px;
     letter-spacing: 0;
     line-height: 22px;
     margin: 0px 16px 0px 16px;
     text-align: center;
   }
+  /*----------------------------------Episodios---------------------------------------*/
   .sec-episodios .fondo-episodios {
     width: 100%;
     height: 1250.5px;
@@ -96,6 +99,7 @@
     margin: 64px 147px 21px 16px;
     padding-top: 50px;
   }
+  /*-----------------De dónde venimos ------------------------------------------*/
   .sec-dedondev {
     display: block;
   }
@@ -132,19 +136,20 @@
   }
 }
 
-.sec-invitados h2 {
+/*---------------------------------------------entrevistas---------------------------------*/
+.sec-entrevistas h2 {
   font-size: 36px;
   text-align: left;
   margin-left: 5%;
   font-weight: 400;
 }
 
-.sec-invitados img {
+.sec-entrevistas img {
   width: 100%;
   height: 100%;
 }
 
-.sec-invitados .cont-imagenes {
+.sec-entrevistas .cont-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
