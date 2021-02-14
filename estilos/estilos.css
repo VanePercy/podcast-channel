@@ -223,8 +223,8 @@
   /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
-  width: 1440px;
-  height: 518px;
+  width: 100%;
+  height: 400px;
   /*Imagen degradada*/
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   position: absolute;
@@ -233,6 +233,17 @@
   -webkit-transform-origin: top left;
           transform-origin: top left;
   margin-top: 150px;
+}
+
+.sec-novedades .fondo-novedades2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  margin-top: 357px;
 }
 
 .sec-novedades .cont-novedades {
@@ -440,5 +451,19 @@ p {
 .header .nav .menu input:checked ~ span:nth-last-child(2) {
   -webkit-transform: rotate(-45deg) translate(1px, 0px);
           transform: rotate(-45deg) translate(1px, 0px);
+}
+
+.cont-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20%;
+  margin-right: 20%;
+  margin-left: 15%;
+  margin-bottom: 3%;
 }
 /*# sourceMappingURL=estilos.css.map */
