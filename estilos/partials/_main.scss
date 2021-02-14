@@ -58,7 +58,7 @@
     width: 1440px;
     height: 900px;
     /*Imagen degradada*/
-    background-image: linear-gradient(#0000ff, #0000a3);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     position: absolute;
     /*Cambiar la posición del elemento transformado en este caso skew
     top = 0% - left = 0%*/
@@ -195,4 +195,63 @@
     margin-top: 50px;
     margin-bottom: 30px;
   }
+}
+
+/*--------------------------------------------Novedades--------------------------------------*/
+
+.sec-novedades {
+
+  .fondo-novedades {
+
+    /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
+    transform: skewY(-6deg);
+    width: 1440px;
+    height: 518px;
+    /*Imagen degradada*/
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    position: absolute;
+    /*Cambiar la posición del elemento transformado en este caso skew
+    top = 0% - left = 0%*/
+    transform-origin: top left;
+    margin-top: 150px;
+  }
+  
+  .cont-novedades {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+  }
+
+  .cont-novedades h2 {
+
+    position: relative;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    color:white;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 90px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    
+    
+  }
+
+   .cont-boton {
+
+    display: flex;
+    position: relative;
+    width: 345px;
+    height: 56px;
+    margin-top: 400px;
+    align-items: center;
+    margin-right: 400px;
+    
+  }
+
+
 }
