@@ -132,7 +132,7 @@
 
 /*---------------------------------------Entrevistas---------------------------*/
 .sec-entrevistas {
-  #letra {
+  h2 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
@@ -159,38 +159,32 @@
 
 /*------------------------------------------Topicos-------------------------------------------*/
 .sec-topicos {
-  #letra {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 48px;
-    color: #060a24;
-    font-weight: 400;
-    letter-spacing: 0;
-    margin-left: 150px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-  }
-
   .cont-topicos {
     display: flex;
+    margin-bottom: 200px;
     justify-content: space-evenly;
-    margin-bottom: 10%;
+    text-align: center;
   }
 
-  .tema {
+  .tema img {
     width: 104px;
     height: 104px;
+    
   }
 
   p {
-    text-align: center;
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 24px;
     color: #060a24;
     letter-spacing: 0;
     font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 24px;
+
+    text-align: center;
   }
 
-  #letra {
+  h2 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
@@ -200,6 +194,4 @@
     margin-top: 50px;
     margin-bottom: 30px;
   }
-
-  
 }
