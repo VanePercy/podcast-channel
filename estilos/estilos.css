@@ -47,9 +47,9 @@
 }
 
 .boton:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000A3), to(#00F3BB));
-  background-image: linear-gradient(#0000A3, #00F3BB);
-  color: #FFFFFF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000a3), to(#00f3bb));
+  background-image: linear-gradient(#0000a3, #00f3bb);
+  color: #ffffff;
 }
 
 /*--------------------------------------------Episodios-------------------------------------*/
@@ -175,6 +175,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  margin-bottom: 5%;
 }
 
 /*------------------------------------------Topicos-------------------------------------------*/
@@ -196,11 +197,32 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-bottom: 10%;
 }
 
-.sec-topicos .cont-topicos .tema {
+.sec-topicos .tema {
   width: 104px;
   height: 104px;
+}
+
+.sec-topicos p {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  color: #060a24;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.sec-topicos #letra {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 * {

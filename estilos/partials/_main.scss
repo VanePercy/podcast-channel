@@ -1,4 +1,3 @@
-
 /*------------------------ Conoce mas-----------------------------*/
 .sec-conocemas {
   margin: 120px 180px;
@@ -31,7 +30,6 @@
     line-height: 24px;
     font-weight: 400px;
   }
-
 }
 
 .boton {
@@ -45,17 +43,12 @@
   cursor: pointer;
   line-height: 24px;
   margin-top: 50px;
- 
 }
-
-
-
 
 .boton:hover {
-  background-image: linear-gradient(#0000A3, #00F3BB);
-  color: #FFFFFF;
+  background-image: linear-gradient(#0000a3, #00f3bb);
+  color: #ffffff;
 }
-
 
 /*--------------------------------------------Episodios-------------------------------------*/
 .sec-episodios {
@@ -137,10 +130,9 @@
   }
 }
 
-
 /*---------------------------------------Entrevistas---------------------------*/
 .sec-entrevistas {
-  #letra{
+  #letra {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
@@ -161,15 +153,13 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-   
-    
+    margin-bottom: 5%;
   }
 }
 
 /*------------------------------------------Topicos-------------------------------------------*/
 .sec-topicos {
-  
-  #letra{
+  #letra {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
@@ -183,11 +173,33 @@
   .cont-topicos {
     display: flex;
     justify-content: space-evenly;
-    
-
-    .tema {
-      width: 104px;
-      height: 104px;
-    }
+    margin-bottom: 10%;
   }
+
+  .tema {
+    width: 104px;
+    height: 104px;
+  }
+
+  p {
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    color: #060a24;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  #letra {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    color: #060a24;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  
 }
