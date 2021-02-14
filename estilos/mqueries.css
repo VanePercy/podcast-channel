@@ -69,8 +69,11 @@
   }
   .sec-conocemas .boton {
     margin-top: 20px;
-    height: 48px;
-    width: 288px;
+    height: 100%;
+    width: 100%;
+    max-width: 288px;
+    max-height: 48px;
+    text-align: center;
   }
   .sec-conocemas p {
     font-size: 14px;
@@ -144,7 +147,7 @@
     margin: 0.3em;
   }
   /*---------------------------------------------entrevistas---------------------------------*/
-  .sec-entrevistas #letra {
+  .sec-entrevistas h2 {
     font-size: 36px;
     text-align: left;
     width: 288px;
@@ -169,7 +172,13 @@
   }
   /*---------------------------------Tópicos----------------------------------------------*/
   .sec-topicos .cont-topicos {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sec-topicos h2 {
     font-size: 36px;
@@ -177,6 +186,11 @@
     width: 288px;
     height: 84px;
     margin: 0.3em;
+    width: 100%;
+    height: 100%;
+  }
+  .tema {
+    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=mqueries.css.map */
