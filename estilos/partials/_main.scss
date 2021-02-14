@@ -140,13 +140,15 @@
 
 /*---------------------------------------Entrevistas---------------------------*/
 .sec-entrevistas {
-  h2 {
+  #letra{
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
     font-weight: 400;
     letter-spacing: 0;
-    margin: 50px 200px 26px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 
   .img-entrevistas {
@@ -166,16 +168,22 @@
 
 /*------------------------------------------Topicos-------------------------------------------*/
 .sec-topicos {
-  h2 {
+  
+  #letra{
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060a24;
     font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 
   .cont-topicos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 
     .tema {
       width: 104px;
