@@ -222,8 +222,8 @@
 .sec-novedades .fondo-novedades {
   width: 100%;
   height: 50vw;
-  -webkit-clip-path: polygon(0 23%, 100% 1%, 100% 81%, 0 81%);
-          clip-path: polygon(0 23%, 100% 1%, 100% 81%, 0 81%);
+  -webkit-clip-path: polygon(0 23%, 100% 1%, 100% 89%, 0 89%);
+          clip-path: polygon(0 23%, 100% 1%, 100% 89%, 0 89%);
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   position: absolute;
   margin-top: 0px;
@@ -247,7 +247,7 @@
   font-weight: 400;
   letter-spacing: 0;
   margin-left: 90px;
-  margin-top: 200px;
+  margin-top: 250px;
   margin-bottom: 20px;
   margin-right: 100px;
 }
@@ -444,7 +444,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20%;
+  margin-top: 17.5%;
   margin-right: 20%;
   margin-left: 15%;
   margin-bottom: 0;
