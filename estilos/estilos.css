@@ -158,23 +158,18 @@
   margin-bottom: 30px;
 }
 
-.sec-entrevistas .img-entrevistas {
-  width: 427.3px;
+.sec-entrevistas .img-entrevistas img {
+  width: 428px;
   height: auto;
   margin-top: -5px;
 }
 
 .sec-entrevistas .cont-imagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  margin-bottom: 5%;
 }
 
 /*------------------------------------------Topicos-------------------------------------------*/
