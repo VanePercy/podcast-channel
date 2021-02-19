@@ -57,7 +57,7 @@
   /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
-  width: 1440px;
+  width: 100%;
   height: 900px;
   /*Imagen degradada*/
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
@@ -470,5 +470,11 @@ p {
 
 .cont-enlaces i {
   margin-right: 2em;
+}
+
+.cont-enlaces a i:hover {
+  background-color: #0000ec;
+  color: white;
+  opacity: 1;
 }
 /*# sourceMappingURL=estilos.css.map */

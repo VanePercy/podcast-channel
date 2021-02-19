@@ -6,7 +6,6 @@
   margin-right: 2%;
   margin-left: 6%;
   margin-bottom: 5%;
-  
 }
 
 .cont-enlaces {
@@ -25,4 +24,10 @@
   & i {
     margin-right: 2em;
   }
+}
+
+.cont-enlaces a i:hover {
+  background-color:#0000ec;
+  color: white;
+  opacity: 1;
 }

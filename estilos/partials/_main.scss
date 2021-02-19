@@ -55,7 +55,7 @@
   .fondo-episodios {
     /*Propiedad transform para sesgar(skew en Y) el div en -6deg*/
     transform: skewY(-6deg);
-    width: 1440px;
+    width: 100%;
     height: 900px;
     /*Imagen degradada*/
     background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
