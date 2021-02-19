@@ -445,10 +445,10 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 15%;
+  margin-top: 13%;
   margin-right: 2%;
   margin-left: 6%;
-  margin-bottom: 0;
+  margin-bottom: 5%;
 }
 
 .cont-enlaces {
