@@ -62,24 +62,19 @@
   /*------------------------------------Conoce mas---------------------------------------*/
 
   .sec-conocemas {
-
     .cont-conocemas {
-      
       display: flex;
       flex-direction: column;
       text-align: center;
       margin-left: -11.3em;
       margin-right: auto;
       width: 100%;
-      
-      
-     
     }
     h1 {
       font-size: 36px;
       letter-spacing: 0;
       line-height: 42px;
-      
+
       text-align: center;
     }
 
@@ -91,14 +86,11 @@
       width: 100%;
       margin-bottom: -4em;
       margin-top: 0%;
-    
-      
     }
 
     .boton {
       height: 48px;
       width: 288px;
-      
     }
 
     p {
@@ -108,7 +100,6 @@
       text-align: center;
       line-height: 22px;
       margin-top: 2em;
-      
     }
 
     .punto {
@@ -118,19 +109,16 @@
 
   /*----------------------------------Episodios---------------------------------------*/
   .sec-episodios {
-    
     .fondo-episodios {
       width: 100%;
       height: 1250.5px;
       display: flex;
       flex-direction: column;
-     
- 
     }
 
     .cont-iframe iframe {
       background-color: transparent;
-     
+
       border: 0px;
       height: 235px;
       /*Que ocupe todo el ancho*/
@@ -230,19 +218,19 @@
     font-size: 24px;
     font-weight: 600;
   }
-}
 
-/*--------------------------------------------Novedades---------------------------------------------*/
-.fondo-novedades {
-  width: 100%;
-  height: 60vw;
-  clip-path: polygon(0 23%, 100% 1%, 100% 78%, 0 120%);
-}
+  /*--------------------------------------------Novedades---------------------------------------------*/
+  .fondo-novedades {
+    width: 100%;
+    height: 60vw;
+    clip-path: polygon(0 23%, 100% 1%, 100% 78%, 0 120%);
+  }
 
-.cont-novedades {
-  display: block;
-}
+  .cont-novedades {
+    display: block;
+  }
 
-.cont-boton {
-  display: block;
+  .cont-boton {
+    display: block;
+  }
 }
