@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /*Versión tablet*/
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
   /*------------------------------Header-------------------------------*/
   .header {
     /*Anchura del 100% del viewport*/
@@ -189,10 +186,6 @@
 }
 
 @media screen and (min-width: 1220px) {
-  body {
-    /*Recortar el contenido horizontalmente y no mostrar barras de posición*/
-    overflow-x: hidden;
-  }
   /*------------------------------Header-----------------------------*/
   /*Menú simple con tamaño menor a 1000px*/
   .header .nav .menu ul {
@@ -226,9 +219,6 @@
     width: 100%;
     border: 1px solid black;
   }
-  .sec-conocemas .tachado {
-    text-decoration: line-through;
-  }
   .sec-conocemas .punto {
     color: #0000ec;
   }
@@ -249,23 +239,6 @@
     letter-spacing: 0;
     line-height: 24px;
     font-weight: 400px;
-  }
-  .boton {
-    height: 56px;
-    width: 226px;
-    background: #00f3bb;
-    font-family: "IBM Plex Mono", monospace;
-    color: #060a24;
-    font-size: 18px;
-    /*Manito cuando se pase el cursor sobre el botón*/
-    cursor: pointer;
-    line-height: 24px;
-    margin-top: 50px;
-  }
-  .boton:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0000a3), to(#00f3bb));
-    background-image: linear-gradient(#0000a3, #00f3bb);
-    color: #ffffff;
   }
   /*--------------------------------------------Episodios-------------------------------------*/
   .sec-episodios .fondo-episodios {

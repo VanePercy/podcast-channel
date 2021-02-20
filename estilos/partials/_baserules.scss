@@ -8,4 +8,29 @@
     
   }
 
-  
+  .tachado {
+    text-decoration: line-through;
+  }
+
+  .boton {
+    height: 3rem;
+    width: 14.25rem;
+    background: #00f3bb;
+    font-family: "IBM Plex Mono", monospace;
+    color: #060a24;
+    font-size: 1.125rem;
+    /*Manito cuando se pase el cursor sobre el botón*/
+    cursor: pointer;
+    line-height: 1.5rem;
+    
+  }
+
+  .boton:hover {
+    background-image: linear-gradient(#0000a3, #00f3bb);
+    color: #ffffff;
+  }
+
+
+  body {
+    overflow-x: hidden;
+ }    
