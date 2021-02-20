@@ -2,7 +2,7 @@
 .header {
   width: 100%;
   position: fixed;
-  height: 80px;
+  height: 20vh;
   top: 0;
   background: white;
   padding: 10px 5%;
@@ -11,11 +11,12 @@
   align-content: center;
   /*Para superponer el header y que cubra a los elementos restantes*/
   z-index: 3;
+  border: 1px solid black;
 }
 .header .logo {
   height: 36px;
   width: 36px;
-  margin-left: 5%;
+  
 }
 
 h1 {
@@ -30,8 +31,14 @@ p {
   font-size: 16px;
 }
 
+.menu {
+  
+  width: 100%;
+}
 .header .nav {
-  margin-right: 25%;
+  
+  
+  border: 1px solid black;
 }
 
 /*Estilo del menú y otros elementos ul, li, a*/

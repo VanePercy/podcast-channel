@@ -224,6 +224,7 @@
   .sec-conocemas {
     margin: 120px 180px;
     width: 100%;
+    border: 1px solid black;
   }
   .sec-conocemas .tachado {
     text-decoration: line-through;
