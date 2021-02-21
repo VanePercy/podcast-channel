@@ -114,3 +114,20 @@
   letter-spacing: 0;
   font-weight: 400;
 }
+
+.cont-imagenes {
+
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img-entrevistas {
+
+  width: 20rem;
+  height: 15.188rem;
+  margin-bottom: -0.375rem;
+}
