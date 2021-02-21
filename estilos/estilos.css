@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*----------------Sección conoce mas--------------------------------------------*/
 .sec-conocemas {
-  margin-top: 6rem;
+  margin-top: 12.5rem;
   margin-left: 0rem;
   margin-right: 1.5rem;
   width: 100%;
@@ -121,6 +121,16 @@
   text-align: justify;
 }
 
+/*-------------------------------Sección entrevistas-------------------*/
+.sec-entrevistas h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3rem;
+  color: #060a24;
+  margin-bottom: 0.5em;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -150,166 +160,6 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0000a3), to(#00f3bb));
   background-image: linear-gradient(#0000a3, #00f3bb);
   color: #ffffff;
-}
-
-/*Estilo del header y sus dos componentes (logo y nav)*/
-.header {
-  width: 100%;
-  position: fixed;
-  height: 20vh;
-  top: 0;
-  background: white;
-  padding: 10px 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  /*Para superponer el header y que cubra a los elementos restantes*/
-  z-index: 3;
-  border: 1px solid black;
-}
-
-.header .logo {
-  height: 36px;
-  width: 36px;
-}
-
-h1 {
-  font-family: "IBM Plex Sans", sans-serif;
-  color: black;
-  font-size: 64px;
-}
-
-p {
-  font-family: "IBM Plex Mono", monospace;
-  color: black;
-  font-size: 16px;
-}
-
-.menu {
-  width: 100%;
-  height: 100%;
-}
-
-.header .nav {
-  border: 1px solid black;
-}
-
-/*Estilo del menú y otros elementos ul, li, a*/
-.header .nav .menu ul {
-  /*posición absolute para que se posicione debajo del resto del header - top medida del header*/
-  width: 100%;
-  position: absolute;
-  top: 45px;
-  right: 0;
-  overflow: hidden;
-  list-style: none;
-  background: #0000ec;
-  height: 0px;
-  -webkit-transition: height 0.5s ease;
-  transition: height 0.5s ease;
-  z-index: 999;
-}
-
-.header .nav .menu ul li {
-  position: relative;
-  font-family: "IBM Plex Mono", monospace;
-  color: black;
-  font-size: 16px;
-}
-
-.header .nav .menu ul li a {
-  position: relative;
-  text-decoration: none;
-  color: #060a24;
-  padding: 16px 5%;
-  line-height: 28px;
-  display: block;
-}
-
-/*Interacción con el cursor*/
-.header .nav .menu ul li a:hover {
-  text-decoration: line-through;
-  color: #00f3bb;
-}
-
-.header .nav .menu ul li a:active {
-  color: rgba(6, 10, 36, 0.56);
-  text-decoration: line-through;
-}
-
-/*animación del menu que se desplega input checkeado*/
-.header .nav .menu input[type="checkbox"]:checked ~ ul {
-  height: 240px;
-  transition: height 0.5s ease-in-out;
-  -moz-transition: height 0.5s ease-in-out;
-  -o-transition: height 0.5s ease-in-out;
-  -webkit-transition: height 0.5s ease-in-out;
-}
-
-.header .nav .menu {
-  padding-top: 3px;
-}
-
-/*checkbox transparente y en primer plano*/
-.header .nav .menu input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  opacity: 0;
-  z-index: 2;
-  position: absolute;
-}
-
-/*span -lineas del menu hamburguesa-*/
-/*Estilo*/
-.header .nav .menu span {
-  display: block;
-  width: 25px;
-  height: 2.5px;
-  margin-bottom: 6.5px;
-  position: relative;
-  background: #000;
-  z-index: 1;
-  -webkit-transform-origin: 3px 0px;
-          transform-origin: 3px 0px;
-  -webkit-transition: opacity 0.55s ease, -webkit-transform 0.5s ease;
-  transition: opacity 0.55s ease, -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease, opacity 0.55s ease;
-  transition: transform 0.5s ease, opacity 0.55s ease, -webkit-transform 0.5s ease;
-}
-
-/*Comportamiento*/
-.header .nav .menu span:first-child {
-  -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
-}
-
-.header .nav .menu span:nth-last-child(2) {
-  -webkit-transform-origin: 0% 100%;
-          transform-origin: 0% 100%;
-}
-
-/*movimiento a cruz*/
-.header .nav .menu input:checked ~ span {
-  opacity: 1;
-  -webkit-transform: rotate(45deg) translate(2px, 1px);
-          transform: rotate(45deg) translate(2px, 1px);
-}
-
-.header .nav .menu input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-          transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.header .nav .menu input:checked ~ span:nth-last-child(2) {
-  -webkit-transform: rotate(-45deg) translate(1px, 0px);
-          transform: rotate(-45deg) translate(1px, 0px);
 }
 
 .cont-redes {
