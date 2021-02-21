@@ -1,4 +1,4 @@
-/*----------------Sección conoce mas--------------------------------------------*/
+/*------------------------------------Sección conoce mas--------------------------------------------*/
 
 .sec-conocemas {
   margin-top: 12.5rem;
@@ -36,7 +36,7 @@
   border: 1px solid black;
 }
 
-/*----------------------------Sección episodios-----------------------------------*/
+/*--------------------------------------------------Sección episodios-----------------------------------*/
 .fondo-episodios {
   border: 1px solid blue;
   margin-top: 2.5rem;
@@ -73,7 +73,7 @@
   }
 }
 
-/*---------------------------------Sección nosotros---------------------------*/
+/*--------------------------------------------------Sección nosotros---------------------------*/
 .cont-imagen {
   position: relative;
   border: 1px solid black;
@@ -85,6 +85,7 @@
 
 .cont-texto {
   border: 1px solid black;
+  margin-bottom: 2rem;
 
   h2 {
     font-family: "IBM Plex Sans", sans-serif;
@@ -105,7 +106,7 @@
   }
 }
 
-/*-------------------------------Sección entrevistas-------------------*/
+/*------------------------------------------------Sección entrevistas-------------------*/
 .sec-entrevistas h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 3rem;
@@ -116,18 +117,62 @@
 }
 
 .cont-imagenes {
-
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  margin-bottom: 2rem;
 }
 
 .img-entrevistas {
-
   width: 20rem;
   height: 15.188rem;
   margin-bottom: -0.375rem;
+}
+
+/*----------------------------------------Sección tópicos---------------------------------------------*/
+.sec-topicos h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3rem;
+  color: #060a24;
+  margin-bottom: 0.5em;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.cont-topicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+
+.tema {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+.tema img {
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 1px solid blue;
+}
+
+ .tema p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #060a24;
+  letter-spacing: 0;
+  width: 18rem ;
+  height: 4rem;
+  text-align: center;
+  
+  
 }
