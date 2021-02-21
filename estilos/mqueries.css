@@ -385,14 +385,15 @@
     margin-bottom: 30px;
   }
   /*--------------------------------------------Novedades--------------------------------------*/
-  .sec-novedades .fondo-novedades {
-    width: 100%;
-    height: 50vw;
-    -webkit-clip-path: polygon(0 23%, 100% 1%, 100% 89%, 0 89%);
-            clip-path: polygon(0 23%, 100% 1%, 100% 89%, 0 89%);
-    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-    position: absolute;
-    margin-top: 0px;
+  .sec-novedades {
+    /* .fondo-novedades {
+      width: 100%;
+      height: 50vw;
+      clip-path: polygon(0 23%, 100% 1%, 100% 89%, 0 89%);
+      background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+      position: absolute;
+      margin-top: 0px;
+    }*/
   }
   .sec-novedades .cont-novedades {
     display: -webkit-box;

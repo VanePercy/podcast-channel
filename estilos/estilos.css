@@ -217,6 +217,48 @@
   text-align: center;
 }
 
+/*--------------------------------Sección novedades-----------------------------*/
+.fondo-nov {
+  width: 20rem;
+  height: 21.313rem;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  position: absolute;
+  border: 1px solid red;
+  margin-top: 1.625rem;
+}
+
+/*.cont-novedades 
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 2rem;
+
+}{*/
+/*.cont-novedades .boton {
+
+  width: 18rem;
+  height: 3rem;
+}
+
+.cont-novedades h2{
+
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.25rem;
+  position: relative;
+  color: black;
+  margin-top: 9.625rem;
+  margin-right: 12.5rem;
+  margin-bottom: 1.625rem;
+  font-weight: 400;
+  text-align: center;
+  
+
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -256,36 +298,33 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 13%;
   margin-right: 2%;
   margin-left: 6%;
-  margin-bottom: 5%;
+  margin-top: 25rem;
+  border: 1px solid blueviolet;
+}
+
+/*.cont-enlaces {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
 }
 
 .cont-enlaces {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 30%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.cont-enlaces a {
-  font-size: 18px;
-  color: #060a24;
-  letter-spacing: 0;
-  line-height: 28px;
-}
-
-.cont-enlaces i {
-  margin-right: 2em;
+  a {
+    font-size: 18px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  & i {
+    margin-right: 2em;
+  }
 }
 
 .cont-enlaces a i:hover {
-  background-color: #0000ec;
+  background-color:#0000ec;
   color: white;
   opacity: 1;
-}
+}*/
 /*# sourceMappingURL=estilos.css.map */
