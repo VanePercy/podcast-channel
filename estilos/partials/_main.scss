@@ -9,6 +9,8 @@
   border: 1px solid rgb(30, 207, 24);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sec-conocemas h1 {
@@ -31,7 +33,7 @@
 }
 
 .boton {
-  margin-left: 0.938rem;
+  
   margin-top: 2rem;
   border: 1px solid black;
 }
