@@ -2,18 +2,27 @@
     width: 1rem;
     border: 1px solid black;
     position: fixed;
-    height: 3.125rem;
+    height: 2rem;
     top: 0;
     //06.25rem top - bottom , 0.0.31rem right-left
-    padding: 06.25rem 0.031rem;
+    //padding: 09.40rem 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    z-index: 3;
+    
 
 }
 
-.header img {
-    float: left;
+.header .logo {
+
+    width: 2.25rem;
+    height: 2.25rem;
+    //float: left;
     border: 1px solid red;
 }
 
@@ -23,10 +32,12 @@
 
 .menu {
     border: 1px solid green;
+    
 }
 
+ /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
 .header .nav .menu ul {
-    width: 1rem;
+    width: 20rem;
     position: absolute;
     top: 2.813rem;
     right: 0;
@@ -35,10 +46,13 @@
     background: #0000EC;
     height: 0rem;
     transition: height 0.5s ease;
+    z-index: 999;
 }
 
 .header .nav .menu ul li{
     position: relative;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
 }
 
 /*Revisar contra mockup*/
@@ -113,4 +127,15 @@ header nav .menu  ul li:hover {
 .header .nav .menu input:checked ~ span:nth-last-child(2) {
     
     transform: rotate(-45deg) translate(0.063rem, 0rem);
+}
+
+.enlace {
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding: 0 10px 0 48px;
+    text-decoration: none;
 }
