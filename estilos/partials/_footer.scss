@@ -1,36 +1,40 @@
 .cont-redes {
   display: flex;
-  position: relative;
-  justify-content: space-between;
-  //margin-top: 13%;
-  margin-right: 2%;
-  margin-left: 6%;
-  //margin-bottom: 5%;
-  margin-top: 12rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
   border: 1px solid blueviolet;
 }
 
-/*.cont-enlaces {
+.cont-redes p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 1.375rem;
+}
+
+.cont-enlaces {
   display: flex;
-  width: 30%;
-  justify-content: flex-end;
+  justify-content: space-around;
+  border: 1px solid red;
+  margin-top: 0.069rem;
+  width: 17rem;
 }
 
 .cont-enlaces {
   a {
-    font-size: 18px;
+    font-size: 1rem;
     color: #060a24;
     letter-spacing: 0;
-    line-height: 28px;
+    line-height: 1.75rem;
   }
-  & i {
-    margin-right: 2em;
-  }
+  
 }
 
 .cont-enlaces a i:hover {
   background-color:#0000ec;
   color: white;
   opacity: 1;
-}*/
-
+}
