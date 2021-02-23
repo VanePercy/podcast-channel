@@ -41,13 +41,14 @@
 .header .nav .menu ul {
     width: 20rem;
     position: absolute;
-    top: 2.813rem;
+    top: 3rem;
     right: 0;
     overflow: hidden;
     list-style: none;
     background: #0000EC;
     height: 0rem;
     transition: height 0.5s ease;
+    z-index: 5;
     
 }
 
@@ -130,15 +131,4 @@ header nav .menu  ul li:hover {
 .header .nav .menu input:checked ~ span:nth-last-child(2) {
     
     transform: rotate(-45deg) translate(0.063rem, 0rem);
-}
-
-.enlace {
-
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 28px;
-    padding: 0 10px 0 48px;
-    text-decoration: none;
 }
