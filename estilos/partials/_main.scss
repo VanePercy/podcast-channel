@@ -1,7 +1,7 @@
 /*------------------------------------Sección conoce mas--------------------------------------------*/
 
 .sec-conocemas {
-  margin-top: 12.5rem;
+  margin-top: 5rem;
   margin-left: 0rem;
   margin-right: 1.5rem;
   width: 100%;
@@ -11,6 +11,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .sec-conocemas h1 {
@@ -21,7 +23,7 @@
   line-height: 2.625rem;
   text-align: left;
   font-weight: 400;
-  z-index: -9999;
+  
 }
 
 .sec-conocemas p {
