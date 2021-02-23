@@ -13,8 +13,6 @@
     display: flex;
     justify-content: space-between;
     background: white;
-    
-    
     z-index: 999;
     
 
@@ -46,9 +44,9 @@
     overflow: hidden;
     list-style: none;
     background: #0000EC;
-    height: 0rem;
+    height: 0;
     transition: height 0.5s ease;
-    z-index: 5;
+    //z-index: 5;
     
 }
 
@@ -120,7 +118,7 @@ header nav .menu  ul li:hover {
 /*Movimiento a cruz*/
 .header .nav .menu  input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(0.125rem, 0.063rem);
+    transform: rotate(45deg) translate(0.2rem, 0.069rem);
 }
 
 .header .nav .menu input:checked ~ span:nth-last-child(3) {
