@@ -6,7 +6,7 @@
   margin-right: 1.5rem;
   width: 100%;
   height: 100%;
-  border: 1px solid rgb(30, 207, 24);
+  //border: 1px solid rgb(30, 207, 24);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@
 }
 
 .sec-conocemas p {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: $font_family_p;
   font-size: 0.875rem;
   color: #060a24;
   letter-spacing: 0;
@@ -39,7 +39,7 @@
 .boton {
   
   margin-top: 4rem;
-  border: 1px solid black;
+  //border: 1px solid black;
 }
 
 /*--------------------------------------------------Sección episodios-----------------------------------*/
@@ -48,12 +48,12 @@
   width: 20rem;
   height: 75.219rem;
   transform: skewY(-6deg);
-  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  background-image: $color_bg_gradient;
   position: absolute;
 }
 
 .sec-episodios h2 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: $font_family_h2;
   font-size: 2.25rem;
   position: relative;
   color: white;
@@ -68,7 +68,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(246, 225, 36);
+  //border: 1px solid rgb(246, 225, 36);
   position: relative;
 
   iframe {
@@ -81,7 +81,7 @@
 /*------------------------------Sección nosotros---------------------------*/
 .cont-imagen {
   position: relative;
-  border: 1px solid black;
+  //border: 1px solid black;
 }
 .img-tel {
   width: 22.5rem;
@@ -89,11 +89,11 @@
 }
 
 .cont-texto {
-  border: 1px solid black;
+  //border: 1px solid black;
   margin-bottom: 2rem;
 
   h2 {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: $font_family_h2;
     font-size: 3rem;
     color: #060a24;
     margin-bottom: 0.5em;
@@ -102,7 +102,7 @@
   }
 
   p {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: $font_family_p;
     font-size: 1rem;
     color: #060a24;
     /*Espacio entre carácteres*/
@@ -113,7 +113,7 @@
 
 /*------------------------------------------------Sección entrevistas-------------------*/
 .sec-entrevistas h2 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: $font_family_h2;
   font-size: 3rem;
   color: #060a24;
   margin-bottom: 0.5em;
@@ -122,7 +122,7 @@
 }
 
 .cont-imagenes {
-  border: 1px solid black;
+  //border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +138,7 @@
 
 /*----------------------------------------Sección tópicos---------------------------------------------*/
 .sec-topicos h2 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: $font_family_h2;
   font-size: 3rem;
   color: #060a24;
   margin-bottom: 0.5em;
@@ -151,7 +151,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  //border: 1px solid black;
   margin-top: 2rem;
 }
 
@@ -163,13 +163,13 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 1rem;
-  border: 1px solid red;
+  //border: 1px solid red;
   
 }
 .tema img {
   width: 6.5rem;
   height: 6.5rem;
-  border: 1px solid blue;
+  //border: 1px solid blue;
 }
 
  .tema p {
@@ -191,20 +191,22 @@
   width: 20rem;
   height: 21.313rem;
   clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
-  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  background-image: $color_bg_gradient;
   position: absolute;
-  border: 1px solid red;
-  margin-bottom: 0.5rem;
+  //border: 1px solid red;
+  
   
   
 }
 
 .cont-novedades {
-  border: 1px solid palevioletred;
+  //border: 1px solid palevioletred;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -2rem;
+  
  
 
 }
@@ -217,21 +219,22 @@
   justify-content: center;
   align-items: center;
   margin:auto;
-  margin-top: 4rem;
-  border: 1px solid yellow;
+  margin-top: 0.625rem;
+  //border: 1px solid yellow;
   
 }
 
 .cont-novedades h2{
 
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2rem;
+  font-family: $font_family_h2;
+  font-size: 2.25rem;
   position: relative;
   color: white;
   font-weight: 400;
   text-align: center;
   letter-spacing: 0;
-  margin-top: 2.3rem;
+  line-height: 2.625rem;
+  padding: 3rem 1rem;
   
   
 }

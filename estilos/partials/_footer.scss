@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
-  border: 1px solid blueviolet;
+  margin-top: 4.5rem;
+  //border: 1px solid blueviolet;
 }
 
 .cont-redes p {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: $font_family_p;
   font-size: 0.875rem;
   color: #060a24;
   letter-spacing: 0;
@@ -19,7 +19,7 @@
 .cont-enlaces {
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
+  //border: 1px solid red;
   margin-top: 1rem;
   margin-bottom: 1rem;
   

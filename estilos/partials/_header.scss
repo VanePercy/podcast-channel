@@ -1,6 +1,6 @@
 .header {
   width: 1rem;
-  border: 1px solid black;
+  //border: 1px solid black;
   position: fixed;
   height: 2.813rem;
   top: 0;
@@ -19,16 +19,9 @@
 .header .logo {
   width: 2.25rem;
   height: 2.25rem;
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 
-.nav {
-  border: 1px solid blue;
-}
-
-.menu {
-  border: 1px solid green;
-}
 
 /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
 .header .nav .menu ul {
@@ -38,7 +31,7 @@
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: #0000ec;
+  background: $color_bg_header;
   height: 0;
   transition: height 0.5s ease;
   z-index: 5;
