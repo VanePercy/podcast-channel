@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*------------------------------------Sección conoce mas--------------------------------------------*/
 .sec-conocemas {
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-left: 0rem;
   margin-right: 1.5rem;
   width: 100%;
@@ -44,14 +44,13 @@
 }
 
 .boton {
-  margin-top: 2rem;
+  margin-top: 4rem;
   border: 1px solid black;
 }
 
 /*--------------------------------------------------Sección episodios-----------------------------------*/
 .fondo-episodios {
   border: 1px solid blue;
-  margin-top: 2.5rem;
   width: 20rem;
   height: 75.219rem;
   -webkit-transform: skewY(-6deg);
@@ -188,7 +187,7 @@
       -ms-flex-align: center;
           align-items: center;
   border: 1px solid black;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .tema {
@@ -205,7 +204,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border: 1px solid red;
 }
 
@@ -230,21 +229,19 @@
 .fondo-nov {
   width: 20rem;
   height: 21.313rem;
-  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 81%);
-          clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 81%);
+  -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   position: absolute;
   border: 1px solid red;
+  margin-bottom: 0.5rem;
 }
 
 .cont-novedades {
-  border: 1px solid pink;
+  border: 1px solid palevioletred;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -252,13 +249,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cont-novedades .boton {
   width: 18rem;
   height: 3rem;
   position: relative;
+  border: 1px solid yellow;
 }
 
 .cont-novedades h2 {
@@ -269,6 +269,7 @@
   font-weight: 400;
   text-align: center;
   letter-spacing: 0;
+  margin-top: 2.3rem;
 }
 
 * {
@@ -368,7 +369,7 @@ header nav .menu ul li:hover {
   padding: 1rem 0.031rem;
   line-height: 1.75rem;
   display: block;
-  margin-right: 0.5rem;
+  margin-left: 0.625rem;
 }
 
 .header .nav .menu ul li a:hover {
@@ -452,7 +453,7 @@ header nav .menu ul li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
   border: 1px solid blueviolet;
 }
 

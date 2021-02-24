@@ -48,6 +48,7 @@
     transition: height 0.5s ease;
     z-index: 5;
     
+    
 }
 
 .header .nav .menu ul li{
@@ -68,7 +69,8 @@ header nav .menu  ul li:hover {
     padding: 1rem 0.031rem;
     line-height: 1.75rem;
     display: block;
-    margin-right: 0.5rem;
+    margin-left: 0.625rem;
+    
 }
 
 .header .nav .menu ul li a:hover {
