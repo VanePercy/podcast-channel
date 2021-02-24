@@ -1,34 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    
-  }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
 
-  .tachado {
-    text-decoration: line-through;
-  }
+.tachado {
+  text-decoration: line-through;
+}
 
-  .boton {
-    height: 3rem;
-    width: 14.25rem;
-    background: #00f3bb;
-    font-family: "IBM Plex Mono", monospace;
-    color: #060a24;
-    font-size: 1.125rem;
-    /*Manito cuando se pase el cursor sobre el botón*/
-    cursor: pointer;
-    line-height: 1.5rem;
-    
-  }
+.boton {
+  height: 3rem;
+  width: 18rem;
+  background: #00f3bb;
+  font-family: "IBM Plex Mono", monospace;
+  color: #060a24;
+  font-size: 1.125rem;
+  /*Manito cuando se pase el cursor sobre el botón*/
+  cursor: pointer;
+  line-height: 1.5rem;
+}
 
-  .boton:hover {
-    background-image: linear-gradient(#0000a3, #00f3bb);
-    color: #ffffff;
-  }
-
-
+.boton:hover {
+  background-image: linear-gradient(#0000a3, #00f3bb);
+  color: #ffffff;
+}

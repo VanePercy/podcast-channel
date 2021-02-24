@@ -1,4 +1,4 @@
-/*------------------------------------Sección conoce mas--------------------------------------------*/
+/*------------------------------------Sección conoce mas-----------------------*/
 
 .sec-conocemas {
   margin-top: 6rem;
@@ -77,7 +77,7 @@
   }
 }
 
-/*--------------------------------------------------Sección nosotros---------------------------*/
+/*------------------------------Sección nosotros---------------------------*/
 .cont-imagen {
   position: relative;
   border: 1px solid black;
@@ -210,9 +210,13 @@
 
 .cont-novedades .boton {
 
-  width: 18rem;
-  height: 3rem;
+  
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: 4rem;
   border: 1px solid yellow;
   
 }

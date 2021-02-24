@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*------------------------------------Sección conoce mas--------------------------------------------*/
+/*------------------------------------Sección conoce mas-----------------------*/
 .sec-conocemas {
   margin-top: 6rem;
   margin-left: 0rem;
@@ -94,7 +94,7 @@
   margin-bottom: 0rem;
 }
 
-/*--------------------------------------------------Sección nosotros---------------------------*/
+/*------------------------------Sección nosotros---------------------------*/
 .cont-imagen {
   position: relative;
   border: 1px solid black;
@@ -255,9 +255,18 @@
 }
 
 .cont-novedades .boton {
-  width: 18rem;
-  height: 3rem;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 4rem;
   border: 1px solid yellow;
 }
 
@@ -286,7 +295,7 @@
 
 .boton {
   height: 3rem;
-  width: 14.25rem;
+  width: 18rem;
   background: #00f3bb;
   font-family: "IBM Plex Mono", monospace;
   color: #060a24;
