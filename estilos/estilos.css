@@ -311,6 +311,10 @@
   color: #ffffff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   width: 1rem;
   border: 1px solid black;
@@ -338,7 +342,7 @@
 }
 
 .nav {
-  border: 1px solid  blue;
+  border: 1px solid blue;
 }
 
 .menu {
@@ -353,7 +357,7 @@
   right: 0;
   overflow: hidden;
   list-style: none;
-  background: #0000EC;
+  background: #0000ec;
   height: 0;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
@@ -366,11 +370,6 @@
   font-size: 1rem;
 }
 
-/*Revisar contra mockup*/
-header nav .menu ul li:hover {
-  background: #5a5a5a;
-}
-
 .header .nav .menu ul li a {
   position: relative;
   text-decoration: none;
@@ -379,10 +378,6 @@ header nav .menu ul li:hover {
   line-height: 1.75rem;
   display: block;
   margin-left: 0.625rem;
-}
-
-.header .nav .menu ul li a:hover {
-  color: #fff;
 }
 
 /*animación del menu que se desplega*/

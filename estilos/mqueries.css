@@ -213,6 +213,14 @@
     /*Que ya no se vean las líneas del menú hamburguesa*/
     display: none;
   }
+  .header nav .menu ul li a:hover {
+    text-decoration: line-through;
+    color: #00f3bb;
+  }
+  .header nav .menu ul li a:active {
+    text-decoration: line-through;
+    color: #060a24;
+  }
   /*------------------------ Conoce mas-----------------------------*/
   .sec-conocemas {
     margin: 120px 180px;
