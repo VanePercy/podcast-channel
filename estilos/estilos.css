@@ -6,6 +6,7 @@
   margin-right: 1.5rem;
   width: 100%;
   height: 100%;
+  border: 1px solid #1ecf18;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,13 +49,14 @@
 
 /*--------------------------------------------------Sección episodios-----------------------------------*/
 .fondo-episodios {
-  border: 1px solid blue;
+  border: 5px solid yellow;
   width: 20rem;
   height: 75.219rem;
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   position: absolute;
+  margin-top: 1rem;
 }
 
 .sec-episodios h2 {
@@ -62,10 +64,11 @@
   font-size: 2.25rem;
   position: relative;
   color: white;
-  margin-top: 9.625rem;
+  margin-top: 2rem;
   margin-right: 12.5rem;
   margin-bottom: 1.625rem;
   font-weight: 400;
+  padding-top: 50px;
 }
 
 .cont-iframes {
@@ -124,6 +127,10 @@
 }
 
 /*------------------------------------------------Sección entrevistas-------------------*/
+.sec-entrevistas {
+  border: 3px solid red;
+}
+
 .sec-entrevistas h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 3rem;
@@ -133,7 +140,7 @@
   font-weight: 400;
 }
 
-.cont-imagenes {
+.sec-entrevistas .cont-imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,16 +151,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 2rem;
 }
 
-.img-entrevistas {
+.sec-entrevistas .cont-imagenes .img-entrevistas .personajes {
+  border: 4px solid green;
   width: 20rem;
   height: 15.188rem;
-  margin-bottom: -0.375rem;
 }
 
 /*----------------------------------------Sección tópicos---------------------------------------------*/
@@ -332,7 +336,7 @@
 .header .nav .menu ul {
   width: 20rem;
   position: absolute;
-  top: 3rem;
+  top: 5rem;
   right: 0;
   overflow: hidden;
   list-style: none;
@@ -352,7 +356,7 @@
 .header .nav .menu ul li a {
   position: relative;
   text-decoration: none;
-  color: #000;
+  color: white;
   padding: 1rem 0.031rem;
   line-height: 1.75rem;
   display: block;
