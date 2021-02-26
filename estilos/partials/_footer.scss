@@ -1,44 +1,48 @@
-.cont-redes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4.5rem;
-  //border: 1px solid blueviolet;
-}
+.footer {
 
-.cont-redes p {
-  font-family: $font_family_p;
-  font-size: 0.875rem;
-  color: #060a24;
-  letter-spacing: 0;
-  line-height: 1.375rem;
+  .cont-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+    //border: 1px solid blueviolet;
+  }
   
-}
-
-.cont-enlaces {
-  display: flex;
-  justify-content: space-around;
-  //border: 1px solid red;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  
-  width: 17rem;
-}
-
-.cont-enlaces {
-  a {
-    font-size: 1rem;
+  .cont-redes p {
+    font-family: $font_family_p;
+    font-size: 0.875rem;
     color: #060a24;
     letter-spacing: 0;
-    line-height: 1.75rem;
+    line-height: 1.375rem;
     
   }
   
-}
-
-.cont-enlaces a i:hover {
-  background-color:#0000ec;
-  color: white;
-  opacity: 1;
+  .cont-enlaces {
+    display: flex;
+    justify-content: space-around;
+    //border: 1px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    width: 17rem;
+  }
+  
+  .cont-enlaces {
+    a {
+      font-size: 1rem;
+      color: #060a24;
+      letter-spacing: 0;
+      line-height: 1.75rem;
+      
+    }
+    
+  }
+  
+  .cont-enlaces a i:hover {
+    background-color:#0000ec;
+    color: white;
+    opacity: 1;
+  }
+  
 }
